@@ -30,7 +30,7 @@ Note that <img class="latex" src="https://latex.codecogs.com/png.latex?$$\mathbf
 - <img class="latex" src="https://latex.codecogs.com/png.latex?$$\mathbf{A}_1\Delta%20v_1=b_1+dt\mathbf{H}^T_1\lambda$$" title="Shortened constraint problem1" />
 - <img class="latex" src="https://latex.codecogs.com/png.latex?$$\mathbf{A}_2\Delta%20v_2=b_2+dt\mathbf{H}^T_2\lambda$$" title="Shortened constraint problem2" />
 
-However, this system will not be solved diretly. It will be decomposed into two steps:
+However, this system will not be solved directly. It will be decomposed into two steps:
 
 
 **Step 1**: interacting objects are solved independently while setting <img class="latex" src="https://latex.codecogs.com/png.latex?$$\lambda=0$$" title="Lagrange multipliers" />. We obtain what we call the free motion <img class="latex" src="https://latex.codecogs.com/png.latex?$$\Delta%20v_1^{free}$$" title="Free motion 1" /> and <img class="latex" src="https://latex.codecogs.com/png.latex?$$\Delta%20v_2^{free}$$" title="Free motion 2" /> for each object.
