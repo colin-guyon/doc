@@ -10,6 +10,7 @@ model : if two shaders are present in the same node, only the second
 will be effective. To simply include a shader, add this into your node :
 
 ```xml
+???
 ```
 
 vertFilename and fragFilename are the only mandatory parameters. Other

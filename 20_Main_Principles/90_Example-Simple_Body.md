@@ -50,7 +50,7 @@ In an XML format, this would be written as follows:
 Physics
 -------
 
-There is many different kind of physics available in SOFA, namely soft body mechanics but also thermodynamics and fluid dynamics. To run a physics simulation, all you need is to add the associated component in your scene.
+There are many different kind of physics available in SOFA, namely soft body mechanics but also thermodynamics and fluid dynamics. To run a physics simulation, all you need is to add the associated component in your scene.
 
 If we consider an object with a mass under gravity, you will have to:
 
@@ -93,4 +93,4 @@ Now, you have your first physics simulation! To discover more about the simulati
 *   the physics models (forcefields),
 *   the mappings,
 *   the constraints,
-*   and the detection collision and response.
+*   and the collision detection and response.

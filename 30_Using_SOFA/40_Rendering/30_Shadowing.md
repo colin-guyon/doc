@@ -21,7 +21,7 @@ First, you have a light in your scene in order to have shadows
 (obviously). And you will need two more objects :
 
 ```xml
- 
+???
 ```
 
 As you may guess, the important parameter here is **softShadows** which

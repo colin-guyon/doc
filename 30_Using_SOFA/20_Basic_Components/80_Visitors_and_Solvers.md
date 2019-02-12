@@ -103,7 +103,7 @@ containers are represented in DataTypes (such as StdVectorTypes,
 RigidTypes). The state vectors are stored in a dedicated component,
 typically MechanicalObject derived from State. The visitors which
 implement mechanical operations derive from MechanicalVisitor. They
-contain a MultVecId which represent the result state vector of the
+contain a MultiVecId which represent the result state vector of the
 operation (such as force or acceleration), as well as a MechanicalParams
 which contains the MultiVecIds of the vectors the component may have to
 read, such as position or velocity. The component functions called by
